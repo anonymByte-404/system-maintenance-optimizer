@@ -1,0 +1,2 @@
+# system-maintenance-optimizer
+ This repository contains a set of scripts designed to help keep your computer running smoothly. It includes tools for cleaning up unnecessary files, monitoring system performance (like CPU and memory usage), and keeping your system up to date by automating updates. The scripts also provide options for managing system temperature and checking disk space. It's a simple, automated way to ensure your system stays clean and efficient without needing to do it manually.
