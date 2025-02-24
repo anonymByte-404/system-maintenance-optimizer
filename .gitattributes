@@ -5,5 +5,8 @@
 *.sh text eol=lf
 *.bat text eol=crlf
 
-# Handle Python files explicitly for text normalization
+# Explicitly handle Python files for text normalization
 *.py text eol=lf
+
+# Make sure Python files are treated as text files, so GitHub can detect them properly
+*.py linguist-language=Python
