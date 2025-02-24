@@ -2,10 +2,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="AGPL-3.0 License">
-  <img src="https://img.shields.io/badge/SMO-0.1.0-yellow.svg" alt="System Maintenance Optimizer Version">
+  <img src="https://img.shields.io/badge/SMO-0.2.0-yellow.svg" alt="System Maintenance Optimizer Version">
+  <img src="https://img.shields.io/badge/PyQt6-6.8.1-green" alt="PyQt6 Version">
 </p>
 
 <p align="center">A simple set of scripts to automate system maintenance tasks, such as cleaning up your system and monitoring its performance.</p>
+
+>[!NOTE]
+>This project was primarily developed and tested on Windows. While it is expected to work on other operating systems (Linux/macOS), there may be compatibility issues or unforeseen behavior. Please feel free to test it on your system and submit issues if you encounter any problems.
 
 <h2>Features</h2>
 <ul>
@@ -37,32 +41,32 @@ git clone https://github.com/anonymByte-404/system-maintenance-optimizer.git
 cd system-maintenance-optimizer
 ```
 
-<h2>Running the Scripts</h2>
-<p>Once you have the repo set up, follow these steps to run the maintenance tasks:</p>
+<h3>Install dependencies</h3>
+<p>Install the necessary Python dependencies by running the following command:</p>
+
+```bash
+pip install -r requirements.txt
+```
+
+<h2>Running the Application</h2> 
+
+<p>After setting up the repository and installing the dependencies, follow these steps to run the System Maintenance Optimizer:</p>
 
 1. **Navigate to the project folder**:
     ```bash
     cd system-maintenance-optimizer
     ```
 
-2. **Run the main script**:
-  - For **Linux** or **macOS**, use:
+2. **Run the Python file**:
     ```bash
-    bash connect_all.sh
+    python gui.py
     ```
 
-  - For **Windows**, use Git Bash and run:
-    ```bash
-    bash connect_all.sh
-    ```
+3. **Use the GUI**: The application will open with a graphical interface. You will have two tabs:
+    - **Cleanup**: Run the cleanup task to remove unnecessary files.
+    - **Performance Monitor**: Monitor the system performance in real-time.
 
-3. **Choose an option**: The script will prompt you with the following options:
-    - **1.** Clean up system: Runs the cleanup task only.
-    - **2.** Monitor system performance: Runs the performance monitoring task only.
-    - **3.** Clean up system and monitor performance: Runs both tasks.
-    - **4.** Exit: Exits the script.
-
-4. **Follow the on-screen prompts**: Based on the OS detected, the script will automatically run the appropriate task for your platform.
+4. **Follow on-screen instructions**: The logs will display the status of the task, and you will be informed when each task completes.
 
 <h2>Troubleshooting</h2>
 <ul>
