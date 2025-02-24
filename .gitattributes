@@ -1,6 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Explicitly handle .sh and .bat files as text
+# Explicitly handle .sh and .bat files as text with specific line endings
 *.sh text eol=lf
 *.bat text eol=crlf
+
+# Handle Python files explicitly for text normalization
+*.py text eol=lf
