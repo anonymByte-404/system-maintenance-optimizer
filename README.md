@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="AGPL-3.0 License">
-  <img src="https://img.shields.io/badge/SMO-0.3.0-yellow.svg" alt="System Maintenance Optimizer Version">
+  <img src="https://img.shields.io/badge/SMO-0.4.0-yellow.svg" alt="System Maintenance Optimizer Version">
   <img src="https://img.shields.io/badge/PyQt6-6.8.1-green" alt="PyQt6 Version">
 </p>
 
